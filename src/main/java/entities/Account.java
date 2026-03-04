@@ -36,7 +36,7 @@ public class Account {
         this.id = id;
     }
 
-    public void withdraw(double amount) {
+    public final void withdraw(double amount) {
         this.balance -= (amount + 5);
     }
 

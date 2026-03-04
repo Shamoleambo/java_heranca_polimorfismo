@@ -19,10 +19,10 @@ public class BusinessAccount extends Account {
         }
     }
 
-    @Override
-    public void withdraw(double amount) {
-        super.withdraw(amount);
-        this.balance -= 2;
-    }
+//    @Override
+//    public void withdraw(double amount) {
+//        super.withdraw(amount);
+//        this.balance -= 2;
+//    }
 
 }
